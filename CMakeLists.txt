@@ -21,7 +21,7 @@ set(SDIR )
 
 # List all files that are required to compile your project
 set(SOURCE_FILES
-        ${SDIR}pex0.c)
+        ${SDIR}pex0.c pex0.h)
 
 # Tell cmake the name of your executable and what source files to
 # build from
