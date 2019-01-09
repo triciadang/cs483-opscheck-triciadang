@@ -3,7 +3,8 @@
  * Name: Tricia Dang
  * Section: M3
  * Project: PEX0 - C Proficiency
- * Documentation Statement: None
+ * Documentation Statement: C v Python sheet that was given and
+ * website given in part a.
  * =============================================================
  */
 #include <stdio.h>
@@ -16,7 +17,7 @@ int main(int argc, char *argv[]) {
     printf("PEX0\n");
 
 
-    //Part A
+    //Part A,B
     printf(argv[1]);
     printf("\n\n");
 
