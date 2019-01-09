@@ -3,8 +3,7 @@
  * Name: Tricia Dang
  * Section: M3
  * Project: PEX0 - C Proficiency
- * Documentation Statement: C v Python sheet that was given and
- * website given in part a.
+ * Documentation Statement: None other than authorized resources.
  * =============================================================
  */
 #include <stdio.h>
