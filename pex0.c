@@ -36,12 +36,12 @@ int main(int argc, char *argv[]) {
     //Part G
     NodeType node1;
 
-    strncpy(node1.name, "Node 1",sizeof("Node 1"));
+    strncpy(node1.name, "Node 1",strlen("Node 1")* sizeof(char));
 
     //Part H
     NodeType node2;
 
-    strncpy(node2.name, "Node 2",sizeof("Node 2"));
+    strncpy(node2.name, "Node 2",strlen("Node 2")* sizeof(char));
 
     //Part I
     node1.next = &node2;
@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
     nodePtr = (NodeType *) malloc(sizeof(NodeType));
 
     //Part M
-    strncpy(nodePtr->name, "Node 3",sizeof("Node 3"));
+    strncpy(nodePtr->name, "Node 3",strlen("Node 3")* sizeof(char));
 
     //Part M
     nodePtr->next = NULL;
